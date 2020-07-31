@@ -1,0 +1,40 @@
+
+html {
+    font-family: Roboto , sans-serif;
+}
+*  {
+    /*atalho para todos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color:#34cd79;
+    --title-color: #322153;
+    --white-color: #f0f0f5;
+
+    /*atalho para propriedades que são replicadas em formato de variaveis */
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+/*box model
+
+modelo de caixa 
+toda caixa tem 
+largura, altura,espaçamentos e e maneira que é vista pelo html (display)
+e também tem alinhamentos. */
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased; 
+}
+
+
+
+
+
+
